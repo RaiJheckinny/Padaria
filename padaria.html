@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolos Deliciosos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            padding-bottom: 30px;
+            background: url('https://invexo.com.br/blog/wp-content/uploads/2022/10/paes-padarias-copacabana-rio-de-janeiro.jpg') no-repeat center center fixed;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #3e2723;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #6d4c41;
+        }
+
+
+        .cake-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            max-width: 1200px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+
+        .cake {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            margin: 15px;
+            padding: 15px;
+            transition: transform 0.2s;
+        }
+
+        .cake img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .cake h2 {
+            margin-top: 15px;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .cake:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 30px;
+        }
+
+        .whatsapp-link {
+            background-color: #25D366;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.2rem;
+    
+        }
+
+        .whatsapp-link:hover {
+            background-color: #20b358;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cardapio Bolos Deliciosos</h1>
+        <p>Escolha seu bolo favorito e fale conosco no WhatsApp!</p>
+    </header>
+
+    <section class="cake-gallery">
+        <div class="cake">
+            <img src="https://res-console.cloudinary.com/dawcnnetq/thumbnails/v1/image/upload/v1725747141/Qm9sb19Sb3NhMl9oZ3NodTY=/preview" alt="Bolo de Chocolate">
+            <h2>Bolo e Brigadeiro</h2>
+        </div>
+        <div class="cake">
+            <img src="https://res-console.cloudinary.com/dawcnnetq/thumbnails/v1/image/upload/v1725747142/cGl6emFfY24wN2tp/preview" alt="Bolo de Chocolate">
+            <h2>Pizza</h2>
+        </div>
+        <div class="cake">
+            <img src="https://res-console.cloudinary.com/dawcnnetq/thumbnails/v1/image/upload/v1725747141/SGFtYnVnZXJfc3dyYXBw/preview" alt="Bolo de Coco">
+            <h2>Hamburger</h2>
+        </div>
+        <div class="cake">
+            <img src="https://res-console.cloudinary.com/dawcnnetq/thumbnails/v1/image/upload/v1725747141/Qm9sb19Sb3NhX3A2MXVjdA==/preview" alt="Bolo de Coco">
+            <h2>Bolo de Rosa3</h2>
+        </div>
+        <div class="cake">
+            <img src="https://res-console.cloudinary.com/dawcnnetq/thumbnails/v1/image/upload/v1725747141/Qm9sb19lX0JyaWdhZGVpcm9fZzNyZnZ3/preview" alt="Hamburger">
+            <h2>Bolo e Brigadeiro</h2>
+        </div>
+        <div class="cake">
+            <img src="https://res-console.cloudinary.com/dawcnnetq/thumbnails/v1/image/upload/v1725747141/UHVkaW5faXVyMmxr/preview" alt="Pizza">
+            <h2>Pudim</h2>
+        </div>
+    </section>
+
+    <footer>
+        <a href="https://wa.me/5533998355513" class="whatsapp-link" target="_blank">Fale conosco no WhatsApp</a>
+    </footer>
+</body>
+</html>
